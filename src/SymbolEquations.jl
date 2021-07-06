@@ -6,8 +6,7 @@ module SymbolEquations
 # variables d'intégration automatique OK
 # just for test
 export SolveSymbolic
-import Pkg
-Pkg.add("SymPy")
+
 using SymPy
 mutable struct Schematics
 	Template::Array{String}
